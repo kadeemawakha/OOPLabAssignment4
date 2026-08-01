@@ -1,26 +1,34 @@
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
 
+
 #include "Shape.h"
+
 
 class Rectangle : public Shape
 {
+
 private:
+
     double length;
     double width;
 
+
 public:
-    // constructor
 
-    Rectangle(double l, double w);
+    // Constructor
+    Rectangle(double length, double width);
 
-    // calculates the rectangle's area
 
-    double calculateArea() override;
+    // Calculates rectangle area
+    double area() override;
 
-    // draws the rectangle
 
+    // Draws rectangle
     void draw() override;
+
+
 };
+
 
 #endif
