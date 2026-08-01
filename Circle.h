@@ -15,7 +15,7 @@ public:
 
     // calculates the circle's area
 
-    double calculateArea() override;
+    double area() override;
 
     // draws the circle
 
