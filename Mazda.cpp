@@ -1,5 +1,5 @@
 #include "Mazda.h"
-void Mazda::draw() // еhis function draws a simple Mazda using cout.
+void Mazda::draw() // this function draws a simple Mazda using cout.
 {
     cout << "drawing a Mazda" << endl;
     cout << "     _______" << endl;
@@ -8,7 +8,7 @@ void Mazda::draw() // еhis function draws a simple Mazda using cout.
     cout << "'-(_)-----(_)--'" << endl;
 }
 
-void Mazda::drive() // This function drives the ьazda.
+void Mazda::drive() // This function drives the mazda.
 {
     cout << "Driving a Mazda" << endl;
 }
