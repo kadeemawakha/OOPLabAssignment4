@@ -15,7 +15,7 @@ Circle::Circle(double radius)
 
 
 
-double Circle::calculateArea()
+double Circle::area()
 {
 
     return 3.14159 * radius * radius;
